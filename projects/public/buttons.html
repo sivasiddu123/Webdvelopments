@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <style>
+
+        </style>
+    </head>
+    <body>
+        <form class="form-login" novalidate onsubmit="alert('form will submit')" onreset="alert('form will reset')">
+        email:<input name="email" placeholder="enter email adress" autofocus type="email">password:<input name="password" type="password">
+        <button>submit</button>
+        <button type="reset">cancle</button>
+        </form>
+    </body>
+</html>
+<html>
+    <head>
+        <style>
+            ul
+            {
+                list-style: none;
+                border: 2px solid wheat;
+                height: 50px;
+                width: 150px;
+                overflow: auto;
+            }
+
+        </style>
+    </head>
+    <body>
+        <fieldset>
+            <legend>payment details</legend>
+            <dl>
+                <dt>card number</dt>
+                <dd><input type="text" size="40" autofocus></dd>
+                <dt>acc name</dt>
+                <dd><input type="text" size="20"></dd>
+                <dt>cvv num</dt>
+                <dd><input type="text" size="10" minlength="8" maxlength="80" list="terms"></dd>
+                <datalist id="terms">
+                    <option>ddfg</option>
+                    <option>dxcvbn</option>
+                    <option>ertyuig</option>
+                    <option>kkhhfg</option>
+                </datalist>
+                    <dt>Expiry date</dt>
+                    <dd><input type="date" min="2022-06-01" max="2022-06-31" value="date" name="departure"></dd>
+                    <button>ok</button>
+                <dt>mobail number</dt>
+                <dd><input type="text" placeholder="+91" size="3">&nbsp;<input placeholder="10 digit number" type="text"></dd>
+                <dt>file upload</dt>
+                <dd><input type="file" accept=".jpg" multiple ></dd>
+                <form>
+                    <dt>gender</dt>
+                <input type="radio" unchecked name="male">male
+                <input type="radio" >female
+                <ul>
+                    cource:<br>
+                <input type="checkbox" >java
+                <br>
+                <input type="checkbox" value="pyton" name="cource">pyton
+                <br>
+                <input type="checkbox" value="java" name="cource">java
+                <br>
+                <input type="checkbox" value="java" name="cource">java
+                <br>
+                <input type="checkbox" value="java" name="cource">java
+                </ul>
+
+                </form>
+
+
+
+            </dl>
+            <button>register</button>
+        </fieldset>
+    </body>
+</html>
