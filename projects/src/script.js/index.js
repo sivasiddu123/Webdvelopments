@@ -192,6 +192,13 @@
 // x=90;
 // console.log(x);(not-output)
 
+// let myArray=["ad",2,true];
+// myArray.push("pen");
+// console.log(myArray);
+// console.log(myArray.length);
+let myArray=['siddu',99,false];
+console.log(Object.getPrototypeOf);
+
 
 
 
