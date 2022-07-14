@@ -196,13 +196,21 @@
 // myArray.push("pen");
 // console.log(myArray);
 // console.log(myArray.length);
-let myArray=['siddu',99,false];
-console.log(Object.getPrototypeOf);
 
-
-
-
-
-
-
-
+// function person(firstname,lastname){
+//     this.firstname=firstname;
+//     this.lastname=lastname;
+// }
+// let person1=new person("virat","siddu");
+// console.log(person1);
+class person{
+    constructor(firstname,lastname){
+        this.firstname=firstname;
+        this.lastname=lastname;
+    }
+    displayfullname()=>{
+        ...
+    }
+}
+let person1=new person("siddu","ram");
+console.log(person.prototype);

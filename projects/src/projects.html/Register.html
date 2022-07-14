@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    </head>
+    <body>
+        <script src="../../node_modules/jquery/dist/jquery.js"></script>
+        <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+      <div class="d-flex justify-content-center align-items-center mt-4" style="height:600">
+        <div>
+            <form class="border border-3 p-3 border-danger rounded rounded-3" method="post">
+                <h2>Register</h2>
+                <div>
+                    <label for="Usernmae" class="form-lable">User Name</label>
+                    <div>
+                        <input type="text" name="username" class="form-control">
+                        <div>
+                            <lable for="Password" class="form-lable">Password</lable>
+                            <div>
+                                <input type="text" name="password" class="form-control">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="city" class="form-lable">city</label>
+                            <div>
+                                <select name="city" class="form-select">
+                                    <option>hyd</option>
+                                    <option>guntur</option>
+                                    <option>vijawada</option>
+                                    <option>rajamandry</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="subscribe" class="form-lable">Subscribe</label>
+                            <div>
+                                <input type="checkbox" class="form-check-input" name="subscribe"><lable class="form-check-lable">yes</lable>
+                                <input type="checkbox" class="form-check-input" name="subscribe"><lable class="form-check-lable">No</lable>
+                            </div>
+                        </div>
+                        <div>
+                            <lable for="range" class="form-lable">Range</lable>
+                            <div class="mb-4">
+                                <input type="date" class="form-range" name="range">
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn btn-danger">Submit</button>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+
+      </div>
+    </body>
+</html>
