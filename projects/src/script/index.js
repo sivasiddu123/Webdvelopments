@@ -21,7 +21,7 @@
 // var arr2=[1,2,...arr1,99]
 // var arr3=[...arr1,...arr2]...........arrys(spread operater(unpacking & Concatination))
 // console.log(arr3)
-//objects{}
+// objects{}
 // var person={name:"siddu",age:20}
 // var person2={...person,location:"hyd"}.......objects(spread operater(unpacking & concatination))
 // console.log(person2);
@@ -44,42 +44,42 @@
 // }
 // num(1,2,3,4,56)
 //   &
-    // function num(a,b,c,...arr){
-    //     console.log(a);
-    //     console.log(b);
-    //     console.log(c);
-    //     console.log(arr);
-    // }
-    // num(1,2,3,4,5,6,7)
+//     function num(a,b,c,...arr){
+//         console.log(a);
+//         console.log(b);
+//         console.log(c);
+//         console.log(arr);
+//     }
+//     num(1,2,3,4,5,6,7)
 
-    // Destructuring arrays............... 
-    // let [a,b,c,d]=[1,2,3,4]
-    // console.log(a);
-    // console.log(b);
-    // console.log(c);
-    // console.log(d);
-    // Destructuring wrt rest perameters.............
-    // let [a,b,c,...rest]=[1,2,3,4,5,6,8];
-    // console.log(rest);
-    // Destructuring objects...............
-    // let {firstname,...rest}={firstname:"siddu",age:24,location:"hyd"}
-    // console.log(firstname);
-    // console.log(rest);
+//     Destructuring arrays............... 
+//     let [a,b,c,d]=[1,2,3,4]
+//     console.log(a);
+//     console.log(b);
+//     console.log(c);
+//     console.log(d);
+//     Destructuring wrt rest perameters.............
+//     let [a,b,c,...rest]=[1,2,3,4,5,6,8];
+//     console.log(rest);
+//     Destructuring objects...............
+//     let {firstname,...rest}={firstname:"siddu",age:24,location:"hyd"}
+//     console.log(firstname);
+//     console.log(rest);
 
-    // Template Literals(or) Template Strings...................
-    // let name="siddu";
-    // console.log(`Hello ${name}`);
+//     Template Literals(or) Template Strings...................
+//     let name="siddu";
+//     console.log(`Hello ${name}`);
 
-    // let names= `sum of 4 and 5 is $(4+5)`;
-    // console.log(name);
+//     let names= `sum of 4 and 5 is $(4+5)`;
+//     console.log(name);
     
-    // let person={name:"siddu"}
-    // console.log(`my name is ${person.name}`);
+//     let person={name:"siddu"}
+//     console.log(`my name is ${person.name}`);
 
-    // let man="siddu";
-    // console.log(`hello ${man} food morning`);
+//     let man="siddu";
+//     console.log(`hello ${man} food morning`);
 
-    // operaters:terinary.............................
+//     operaters:terinary.............................
 //    let s1=90;
 //    let output=s1>=100 ? "ok" : "no-way";
 //    console.log(output);
@@ -153,11 +153,11 @@
 // let car1=new Car("lk","kl");
 // console.log(car1);
 
-//.............Built-in Constructor Functions
+// .............Built-in Constructor Functions
 
 // var ss=new Date(1998,4,5);
 // console.log (ss.setFullYear(1998));
-///This Java Script................
+// /This Java Script................
 
 // let car = {
 //     color:"Blue",
@@ -203,14 +203,14 @@
 // }
 // let person1=new person("virat","siddu");
 // console.log(person1);
-class person{
-    constructor(firstname,lastname){
-        this.firstname=firstname;
-        this.lastname=lastname;
-    }
-    displayfullname()=>{
-        ...
-    }
-}
-let person1=new person("siddu","ram");
-console.log(person.prototype);
+// class person{
+//     constructor(firstname,lastname){
+//         this.firstname=firstname;
+//         this.lastname=lastname;
+//     }
+//     displayfullname()=>{
+//         ...
+//     }
+// }
+// let person1=new person("siddu","ram");
+// console.log(person.prototype);

@@ -3,5 +3,6 @@
     "fetch": "^1.1.0",
     "node": "^18.5.0",
     "node-fetch": "^3.2.8"
-  }
+  },
+  "type": "module"
 }
