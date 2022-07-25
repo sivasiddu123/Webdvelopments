@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        <style>
+        .head{
+            display: flex;
+            justify-content: space-between;
+            background: #000;
+            color: antiquewhite;
+        }
+        </style>
+    </head>
+    <body>
+        <script src="../../jquery/dist/jquery.js"></script>
+        <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+            <header>
+                <div class="head">
+                <div><img src="../../public/images/cc.jpg" style="width:150px" height="50px"></div>
+                <div>
+                    <div>Hello<div class="bi bi-geo-alt">Select your address</div></div>
+                </div> 
+                <div>
+                    <div class="input-group-text input-group border border-0 bg-dark" style="width:500px">
+                        <select class="input-group-text bg-white">
+                            <option>all</option>
+                            <option>Mobiles</option>
+                            <option>Laptops</option>
+                            <option>Bags</option>
+                        </select>
+                        <input type="text" class="form-control">
+                        <div>
+                            <button class="btn btn-danger"><span class="bi bi-person"></span>submit</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <select class="form-select" style="width:50px">
+                            <option>English</option>
+                            <option>Hindi</option>
+                            <option>Kannada</option>
+                            <option>Assami</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="dropbottom">
+                    <button data-bs-toggle="dropdown" class="dropdown-toggle">
+                        <span>hello<div class="bi bi-map">Select your address</div></span>
+                       
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-dark">
+                        <div class="dropdown-item">
+                            <button>Login</button>
+                        </div>
+                        <div class="dropdown-item">
+                            <span class="dropdown-item-text">हिन्दी</span>
+                        </div>
+                        <div class="dropdown-divider">
+        
+                        </div>
+                        <div class="dropdown-item">
+                          <span class="dropdown-item-text"> <span class="bi bi-question-circle"></span>Help</span>
+                        </div>
+                    </div>
+                </div>
+            </header>
+    </body>
+</html>
