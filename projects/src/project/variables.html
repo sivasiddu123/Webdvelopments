@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+        <script>  
+         function f1(){ 
+        //  var x;
+         //var:(it is function scope variable,it can declared any block and accecsing any block of the function it can be allows shadowing and Hoisting )
+        //  x=10;
+        //  if (x==10)
+        //  {
+        // var y=20;
+        // var y=50
+        //  }
+        //  document.write("x="+x+"<br>"+"y="+y);
+     
+            // let x; //(let :it is block scope variables ,it can only block and inner block )
+            // x=10;
+            // if (x==10){
+            // y=50
+            // } 
+            // document.write("x="+x +"<br>"+"y="+y)
+            // const x=30; //const:(block scope only not allow shadoing and hoisting)
+            // document.write("x="+x);
+
+        }
+        f1();
+        </script>
+    </head>
+<body>
+    <form>
+        Departure:
+        <input type="date" min="2022-01-01" max="2022-12-31" value="2022-10-22" name="departure">
+        <button>Submit</button>
+        male<input type="radio" >
+        Female<input type="radio">
+        <div>
+          <form>
+            male:<input type="radio" value="male" checked name="gender">
+            female:<input type="radio" value="female" checked name="gender">
+          </form>
+        </div>
+        <form>
+            Course:
+            java:<input type="checkbox" value="java" name="course">
+            c++:<input type="checkbox" value="c++" name="course">
+        </form>
+        <form>
+            Courses: <br>
+            <input type="checkbox" value="Java" name="course"> Java <br>
+            <input type="checkbox" value=".net" name="course"> .NET <br>
+            <input type="checkbox" value="fullstack" name="course"> Fullstack <br>
+           <button>Submit</button>
+   </form>
+   <form>
+    <div class="form-switch">
+        <input class="form-check-input" checked type="checkbox"> Subscribe <br>
+        <input class="form-check-input" checked type="checkbox"> Apply Theme 
+        <select>
+            <optgroup label="title">
+              <option value="" selected>Text</option>
+               <option value="" disabled>Text</option>
+            </optgroup>
+          </select> 
+    </div>
+ </form>
+ <form>
+    <h2>Select a Product</h2>
+    <select name="Product">
+        <option>Select a Product</option>
+        <optgroup label="Electronics">
+            <option value="SMNG034TV">Samsung TV</option>
+            <option disabled value="LG03MOB">LG Mobile</option>
+        </optgroup>
+        <optgroup label="Footwear">
+            <option value="Nike Casuals">Nike Casuals</option>
+            <option selected value="LEEBT560">Lee Boot</option>
+        </optgroup>
+        <optgroup label="Select Lanuguage">
+            <option>English</option>
+            <option>हिन्दी</option>
+        </optgroup>
+    </select>
+    <button>Submit</button>
+</form>
+<form>
+    <fieldset>
+        <legend>Your Comments</legend>
+        <dl>
+            <dt>Your Email</dt>
+            <dd><input type="email"></dd>
+            <dt>Your Message</dt>
+            <dd>
+                <textarea rows="4" cols="40"></textarea>
+            </dd>
+            <dt>Terms of Service</dt>
+            <dd>
+                <textarea rows="3" cols="40" selected>These terms (“Terms”) cover the use of those Microsoft consumer products, websites, and services listed at the end of these Terms here (the “Services”). You accept these Terms by creating a Microsoft account, through your use of the Services, or by continuing to use the Services after being notified of a change to these Terms.</textarea>
+            </dd>
+            <dt>jhgdfghjk</dt>
+            <dd><select size="4" multiple></select></dd>
+
+        </dl>
+        <button>Post Comment</button>
+    </fieldset>
+</form>
+ </form>
+</body>
+</html>

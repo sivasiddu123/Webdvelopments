@@ -1,0 +1,113 @@
+<!-- <html>
+    <head>
+        <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+        <script type="text/javascript">
+            function one(){
+                document.getElementById("register").innerHTML="Register";
+                document.getElementById("details container").style.display="block"
+                document.getElementById("lblName:").innerHTML=document.getElementById("txtName").value;
+                document.getElementById("lblMobile No:").innerHTML=document.getElementById("txtnum").value;
+                document.getElementById("lblLocation").innerHTML=document.getElementById("txtcity").value;
+                flag=document.getElementById("txtcheck");
+                flag="";
+                if (flag.checked){
+                    flag="Indians";
+                } else{
+                    flag="Not a Indian"
+                }
+                document.getElementById("lblIndian"),innerHTML=flag;
+
+            }
+            
+        </script>
+
+            <script src="../../node_modules/jquery/dist/jquery.js"></script>
+        <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </head>
+    <body class="container-fluid">
+        <div>
+            <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#register">Register Hear</button>
+        </div>
+        <div class="modal fade" id="register">
+        <div class="modal-dialog">
+        <div class="modal-content">
+
+        <div class="modal-header">
+         <h2>Register Hear</h2> 
+         <button class="btn btn-close" data-bs-dismiss="modal"></button>  
+        </div> 
+        <div class="modal-body">
+            <dl>
+                <dt>Name:</dt>
+                <dd><input type="text" class="form-control" id="txtname"></dd>
+                <dt>Mobile No:</dt>
+                <dd><input type="number" class="form control" id="txtnum"></dd>
+                <dt>Location</dt>
+                <dd>
+                    <select class="form-select" id="txtcity">
+                        <option>HYD</option>
+                        <option>Guntur</option>
+                        <option>Vijawada</option>
+                    </select>
+                </dd>
+                <dt>Indian</dt>
+                <dd>
+                    <input type="checkbox" class="form-check-input" id="txtcheck">Avilable
+                </dd>
+            </dl>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-primary" id="register" onclick="one()" data-bs-dismiss="modal">Register</button>
+            <button class="btn btn-danger"  data-bs-dismiss="modal">cancle</button>
+        </div>   
+        </div> 
+        </div>
+        </div>
+        <div id="details container" style="display:none;">
+            <h2>Login details</h2>
+            <dl>
+                <dt class="col-3">Name:</dt>
+                <dd class="col-9" id="lblName:"></dd>
+                <dt class="col-3">Mobile No:</dt>
+                <dd class="col-9" id="lblMobile No:"></dd>
+                <dt class="col-3">Location</dt>
+                <dd class="col-9" id="lblLocation"></dd>
+                <dt class="col-3">Indian</dt>
+                <dd class="col-9" id="lblIndian"></dd>
+            </dl>
+        </div>
+    </body>
+</html> -->
+<!-- <html>.......(Quary string)
+    <head>
+        <script type="text/javascript">
+            function one(){
+                document.querySelector("p").innerHTML=location.search;
+            }
+        </script>
+    </head>
+    <body onload="one()">
+        <h2>hello</h2>
+        <p></p>
+    </body>
+</html> -->
+<html>
+    <head>
+        <script type="text/javascript">
+            function two(){
+                pic = document.createElement("img");
+                pic.width="100";
+                pic.height="100";
+                pic.src="../../public/images/aa.jpg";
+                document.getElementById("container").appendChild("pic");
+            }
+        </script>
+    </head>
+    <body>
+        <button onclick="two()">Add hear</button>
+        <div id="container">
+
+        </div>
+    </body>
+</html>
